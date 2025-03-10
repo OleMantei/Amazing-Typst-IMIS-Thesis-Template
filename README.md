@@ -1,4 +1,6 @@
-The formatting might appear slightly off or unpolished in some areas. This template aims to replicate the Word template as closely as possible. The original sizes were inconsistent in places.
+# 💅 Amazing IMIS Thesis Template (unofficial)
+
+If you have a love-hate relationship with LaTeX and wouldn't touch Word with a ten-foot pole, this Typst template is made for you. I haven't tested this template in real-world use yet, but I designed it from scratch and will be using it for my master's thesis. The formatting might appear slightly off or unpolished in some areas. This template aims to replicate the official Word template as closely as possible. The original sizes were inconsistent in places.
 
 ## ✒️ Fonts
 
