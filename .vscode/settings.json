@@ -1,0 +1,9 @@
+{
+  "recommendations": ["myriad-dreamin.tinymist"],
+  "tinymist.formatterMode": "typstyle",
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true
+  }
+}
