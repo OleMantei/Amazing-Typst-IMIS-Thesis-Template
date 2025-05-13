@@ -568,7 +568,11 @@
   }
 
   // attachments
-  heading("Anhänge", numbering: none)
+  [
+    #set heading(numbering: none)
+    = Anhänge
+    #label("anhänge")
+  ]
   set heading(numbering: none)
 
   context {
