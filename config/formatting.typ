@@ -238,9 +238,7 @@
   //
 
   // title page
-  if exposé == false {
-    set align(center)
-  }
+  set align(center) if exposé == false
   set text(font: titlePageFont)
   set page(footer: none)
 
