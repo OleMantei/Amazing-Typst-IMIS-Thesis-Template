@@ -11,6 +11,7 @@
   support: "Titel Vorname Nachname des/der Betreuer/in",
   company: "Muster GmbH", // remove this line if not needed
   date: "16. Februar 2025",
+  exposé: false,
   doc,
 )
 
