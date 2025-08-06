@@ -1,4 +1,5 @@
 #import "config/formatting.typ": *
+#import "@preview/gantty:0.3.0": gantt
 
 #show: doc => thesis(
   title: "Der vorausichtliche Titel der Arbeit",
@@ -33,5 +34,13 @@
 == Auswertungsmethoden
 #lorem(100)
 
+#pagebreak()
 = Zeitplan
-#lorem(100)
+#box(
+  height: 80%, // adjust height as needed
+  rotate(
+    90deg,
+    reflow: true,
+    gantt(yaml("schedule.yaml")),
+  ),
+)

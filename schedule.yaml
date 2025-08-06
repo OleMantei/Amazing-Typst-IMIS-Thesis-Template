@@ -1,0 +1,58 @@
+# Example created with ChatGPT
+
+show-today: true
+# Either month or day
+viewport-snap: day
+# Can include `year`, `month`, `week`, or `day`
+headers:
+  - month
+  - week
+# A start date. Not required.
+start: 2024-11-01
+# An end date. Not required.
+end: 2025-03-31
+taskgroups:
+  - name: Literaturrecherche
+    tasks:
+      - name: Fachliteratur sichten
+        start: 2024-11-01
+        end:   2024-12-01
+      - name: Annotiertes Verzeichnis
+        start: 2024-12-02
+        end:   2024-12-15
+  - name: Prototyping & Datenerhebung
+    tasks:
+      - name: Prototyp entwickeln
+        start: 2025-01-02
+        end:   2025-01-25
+      - name: Usability-Tests & Datensammlung
+        start: 2025-01-26
+        end:   2025-02-10
+  - name: Auswertung
+    tasks:
+      - name: Datenanalyse
+        start: 2025-02-11
+        end:   2025-02-20
+      - name: Ergebnisse aufbereiten
+        start: 2025-02-21
+        end:   2025-02-28
+  - name: Schreibphase
+    tasks:
+      - name: Rohfassung erstellen
+        start: 2025-02-01
+        end:   2025-02-28
+      - name: Letzte Überarbeitung
+        start: 2025-03-01
+        end:   2025-03-15
+      - name: Druck & Abgabe
+        start: 2025-03-16
+        end:   2025-03-24
+milestones:
+  - name: Literaturübersicht abgeschlossen
+    date: 2024-12-01
+  - name: Prototyp fertig
+    date: 2025-01-25
+  - name: Rohfassung fertig
+    date: 2025-02-28
+  - name: Abschlussarbeit eingereicht
+    date: 2025-03-24
